@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .home,
+  .reports,
+  .products {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+body {
+    background: #f9fafb;
+}
+#loader {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(155, 155, 155, 0.7);
+}
+.clickable {
+  cursor: pointer;
+}
+.control-panel {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  width: 100vw;
+}
+.disabled {
+  cursor: not-allowed;
+  color: lightgray;
+}

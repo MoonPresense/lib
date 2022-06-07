@@ -1,0 +1,27 @@
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.person-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-item {
+    padding-left: 1.25rem;
+    /* 20px */
+    padding-right: 1.25rem;
+    /* 20px */
+    height: 500px;
+    border-radius: 0.375rem;
+    width: 750px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 20px rgb(200, 229, 238) ;
+}
